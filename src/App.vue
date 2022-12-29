@@ -83,5 +83,13 @@ export default {
 </template>
 
 <style scoped>
-
+  .books {
+    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 </style>
