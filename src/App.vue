@@ -75,8 +75,8 @@ export default {
   </div>  
   <div class="book-add">
     <h2>Add a book</h2>
-    <input type="text" v-model="author" /> <br /><br />
-    <input type="text" v-model="title" /> <br />
+    <input type="text" v-model="author" placeholder="author"/> <br /><br />
+    <input type="text" v-model="title" placeholder="title"/> <br />
     <br />
     <button @click="storeBook">Store</button>
   </div>
